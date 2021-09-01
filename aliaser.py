@@ -55,7 +55,6 @@ def alias_workout(w_path, process, delay, repeat):
             f.close()
             #Remembrance file so you can remember the names you aliased
             f= open(home + "aliasnames", "a")
-            f = open("test.txt", "a")
             f.write(chosen_path +"\n")
             f.close()
             print(f"{Fore.YELLOW}You can now use this as a shortcut")
