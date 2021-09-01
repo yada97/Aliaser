@@ -4,7 +4,7 @@
 """
 If you are using bash change the following lines to [.bashrc] 47, 51, 64 ,65
 Built for Orion group pair programmers
-
+If you have a large cluster of folders uncomment Threading 2
 
 """
 
