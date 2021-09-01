@@ -48,7 +48,7 @@ def alias_workout(w_path, process, delay, repeat):
             f = open(home + ".zshrc", "a")
             f.write(alias + "\n")
             f.close()
-            os.system("zsh")
+            #os.system("zsh")
             #Temporary files will be used when the need to delete a folder arises
             f = open(home + ".alias_catalog", "a")
             f.write(alias +"\n")
